@@ -221,7 +221,7 @@
       }
       if (remaining0 <= 0) {
         address1 = new TreeNode(this._input.substring(index2, this._offset), index2, elements1);
-        this._offset = this._offset;
+        //this._offset = this._offset;
       } else {
         address1 = FAILURE;
       }

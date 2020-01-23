@@ -12,6 +12,7 @@ BUILDERS.java                     = canopy.builders.java;
 BUILDERS.js = BUILDERS.javascript = canopy.builders.javascript;
 BUILDERS.py = BUILDERS.python     = canopy.builders.python;
 BUILDERS.rb = BUILDERS.ruby       = canopy.builders.ruby;
+BUILDERS.cr = BUILDERS.crystal    = canopy.builders.crystal;
 
 try {
   var options   = nopt({lang: String}, {l: '--lang'}),

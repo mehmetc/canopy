@@ -7,7 +7,8 @@ module.exports = {
     java:       require('./builders/java'),
     javascript: require('./builders/javascript'),
     python:     require('./builders/python'),
-    ruby:       require('./builders/ruby')
+    ruby:       require('./builders/ruby'),
+    crystal:    require('./builders/crystal')
   },
 
   compile: function(grammar, builder) {
